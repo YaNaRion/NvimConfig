@@ -11,14 +11,14 @@ M.general = {
         require("conform").format()
       end,
       "formatting",
-    }
-
+    },
   },
   v = {
-    [">"] = { ">gv", "indent"},
+    [">"] = { ">gv", "indent" },
+    -- ["<C-d"] = { "<C-d>zz" },
   },
 }
-
 -- more keybinds!
-
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
 return M

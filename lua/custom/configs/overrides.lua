@@ -41,6 +41,11 @@ M.mason = {
 
     -- shell stuff
     "shfmt",
+
+    -- go stuff
+    "golangci-lint",
+    "golangci-lint-langserver",
+    "gopls",
   },
 }
 
