@@ -46,6 +46,8 @@ M.mason = {
     "golangci-lint",
     "golangci-lint-langserver",
     "gopls",
+
+    "grammarly-languageserver",
   },
 }
 

@@ -8,7 +8,7 @@ M.general = {
     --  format with conform
     ["<leader>fm"] = {
       function()
-        require("conform").format()
+        require("confomm").format()
       end,
       "formatting",
     },
@@ -19,6 +19,8 @@ M.general = {
   },
 }
 -- more keybinds!
+
+-- Not the cursor stay in the middle when C-d or C-u
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
 return M
