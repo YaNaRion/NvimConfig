@@ -5,6 +5,11 @@ local default_plugins = {
   "nvim-lua/plenary.nvim",
 
   {
+    "ThePrimeagen/vim-be-good",
+    lazy = false,
+  },
+
+  {
     "NvChad/base46",
     branch = "v2.0",
     build = function()
