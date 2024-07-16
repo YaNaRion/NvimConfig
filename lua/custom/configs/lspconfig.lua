@@ -6,7 +6,7 @@ local lspconfig = require "lspconfig"
 
 -- if you just want default config for the servers then put them in a table
 local servers =
-  { "html", "cssls", "tsserver", "golangci_lint_ls", "eslint", "clangd", "prettier", "gopls", "kotlin_language_server" }
+  { "html", "cssls", "tsserver", "golangci_lint_ls", "eslint", "clangd", "gopls", "kotlin_language_server" }
 
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {

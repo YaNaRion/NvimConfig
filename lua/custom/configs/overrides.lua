@@ -49,7 +49,7 @@ M.mason = {
     "gopls",
 
     "grammarly-languageserver",
-    "kotlin-language-server",
+    -- "kotlin-language-server",
   },
 }
 
