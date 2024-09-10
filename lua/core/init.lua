@@ -13,7 +13,7 @@ opt.laststatus = 3 -- global statusline
 opt.showmode = false
 
 opt.clipboard = "unnamedplus"
-opt.cursorline = true
+opt.cursorline = false
 
 -- Indenting
 opt.expandtab = true
@@ -44,7 +44,7 @@ opt.timeoutlen = 400
 opt.undofile = true
 
 -- interval for writing swap file to disk, also used by gitsigns
-opt.updatetime = 250
+opt.updatetime = 2
 
 -- go to previous/next line with h,l,left arrow and right arrow
 -- when cursor reaches end/beginning of line
