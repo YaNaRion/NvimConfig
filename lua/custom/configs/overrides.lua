@@ -12,6 +12,7 @@ M.treesitter = {
     "c",
     "markdown",
     "markdown_inline",
+    "kotlin",
   },
   indent = {
     enable = true,
@@ -33,7 +34,7 @@ M.mason = {
     "typescript-language-server",
     "angular-language-server",
     "deno",
-    "prettier",
+    -- "prettier",
 
     -- c/cpp stuff
     "clangd",
