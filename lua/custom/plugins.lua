@@ -58,7 +58,7 @@ local plugins = {
   -- If you want a plugin to load on startup, add `lazy = false` to a plugin spec, for example
   {
     "mg979/vim-visual-multi",
-    lazy = false,
+    lazy = true,
   },
 }
 

@@ -15,7 +15,6 @@ M.general = {
   },
   v = {
     [">"] = { ">gv", "indent" },
-    -- ["<C-d"] = { "<C-d>zz" },
   },
 }
 -- more keybinds!
