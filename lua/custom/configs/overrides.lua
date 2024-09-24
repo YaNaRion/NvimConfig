@@ -47,6 +47,9 @@ M.mason = {
     "golangci-lint",
     "golangci-lint-langserver",
     "gopls",
+
+    -- python stuff
+    "pyright",
   },
 }
 
